@@ -46,7 +46,7 @@ public:
     LidarRingConverter() : Node("lidar_ring_converter")
     {
         // Declare Launch Parameters
-        this->declare_parameter<std::string>("robot_namespace", "scout_1_1");
+        this->declare_parameter<std::string>("robot_namespace", "robot_x");
 
         // Decalare Configurable Parameters
         this->declare_parameter<int>("channel_numbers", 32);
